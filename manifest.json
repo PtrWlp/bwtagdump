@@ -1,0 +1,19 @@
+{
+  "name": "bw tags",
+  "description": "Dump BW tags in console",
+  "version": "2.0",
+  "icons": { "128": "tagView.png" },
+  "permissions": [
+    "activeTab",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "dump bw tags"
+  },
+  "manifest_version": 2
+}
